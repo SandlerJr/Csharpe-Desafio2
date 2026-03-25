@@ -25,6 +25,12 @@ class Program
         bandas.Add("Pink Floyd");
 
         Console.WriteLine("Bandas adicionadas:");
+
+        //atvdd3
+        for (int i = 0; i < bandas.Count; i++)
+        {
+            Console.WriteLine($"{i + 1}. {bandas[i]}");
+        }
     }
 }
 
